@@ -180,7 +180,7 @@ public class Solution {
 	 * The method checks whether the neighboring row and column are within 
          * the boundaries of the chess board.
 	 * 
-	 * @return true, if they are on the chess board. Otherwise, returns false.
+	 * @return true, if they are on the chess board. Otherwise, it returns false.
 	 */
 	private static boolean isOnChessboard(int row, int column) {
 		if (row < 0 || row >= chessboardSide || column < 0 || column >= chessboardSide) {
@@ -192,7 +192,7 @@ public class Solution {
 
 /**
  * Class "Position" stores the coordinates of a point on the chess board and 
- * the type of the last move to reach this position (UL, UR, R, LR, LL, L).
+ * the type of the last move to reach this point (UL, UR, R, LR, LL, L).
  */
 class Position {
 	int row;
