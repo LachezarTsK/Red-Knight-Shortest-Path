@@ -26,7 +26,7 @@ public class Solution {
 	 * number of moves. This path is stored in List "pathWithMinimumMoves".
 	 * 
 	 * This list contains all positions on the path, except the start. 
-   * Thus, the size of the list is printed for the value of minimum number of moves.
+         * Thus, the size of the list is printed for the value of minimum number of moves.
 	 * 
 	 * Then, on the next line, the type of move to reach each position on the path
 	 * is printed.
@@ -71,10 +71,10 @@ public class Solution {
 	 * Left.
 	 * 
 	 * The method also fills HashMap "tracePathMap", which is applied to trace 
-   * the path with minimum number of moves.
+         * the path with minimum number of moves.
 	 * 
 	 * @return Object of class "Position" that represents the goal. 
-   *         If the goal is not reachable, then "null" is returned.
+         *         If the goal is not reachable, then "null" is returned.
 	 */
 	private static Position searchPath_minimumNumberOfMoves(int startRow, int startColumn, int endRow, int endColumn,
 			Map<Position, Position> tracePathMap) {
@@ -178,7 +178,7 @@ public class Solution {
 
 	/**
 	 * The method checks whether the neighboring row and column are within 
-   * the boundaries of the chess board.
+         * the boundaries of the chess board.
 	 * 
 	 * @return true, if they are on the chess board. Otherwise, returns false.
 	 */
