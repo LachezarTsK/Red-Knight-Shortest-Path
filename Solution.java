@@ -61,7 +61,7 @@ public class Solution {
 		Position current = tracePathMap.get(goal);
 		pathWithMinimumMoves.add(goal);
 
-		while (current.row != startRow || current.column != startColumn) {
+		while (current != start) {
 			pathWithMinimumMoves.add(current);
 			current = tracePathMap.get(current);
 		}
